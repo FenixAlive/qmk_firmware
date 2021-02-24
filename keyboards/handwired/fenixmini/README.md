@@ -73,7 +73,7 @@ j l , . / alt
 ^  ( ) { } &
 |  _ = [ ] \
     ¡ layer4 ~
-`~
+
 # right-hand 
 / 7 8 9 * insert
 . 4 5 6 - sup
@@ -132,4 +132,4 @@ space ** altgr
 
 ### Compiling the Firmware
 
-    make handwired/hwonecrkbd:default
+    qmk compile -kb handwired/fenixmini -km default

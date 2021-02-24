@@ -1,6 +1,4 @@
-#ifndef CONFIG_H
-#define CONFIG_H
-
+#pragma once
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
@@ -66,4 +64,3 @@
 #define ONESHOT_TIMEOUT 300
 #define ONESHOT_TAP_TOGGLE 2
 
-#endif
