@@ -50,8 +50,8 @@ right-hand row-column
 ### Personal Layout layer 1 default
 
 # left-hand 
-esc  q d r f b
-tab  a s e t g
+TAB  q d r f b
+ESC  a s e t g
 ctrl z x m c v
     tab/LGUI layer3 space/shift
 
@@ -61,60 +61,56 @@ h n i o u '
 j l , . / alt
   enter/shift layer2 backspc/altgr
 
-//doble tap a ctrl se hace ctrl+alt
 //un toque a Altgr es backspace
 //un toque a lgui es tab
-//shift al dejar apretado enter o space
+//shift al dejar apretado a enter o space
 
 ### Personal Layout layer 2 default *(numbers and symbols)
 
 # left-hand 
 `  ! @ # $ %
 ^  ( ) { } &
-|  _ = [ ] \
-    ¡ layer4 ~
+|  _ ~ [ ] \
+    ¡ layer4 space/shift
 
 # right-hand 
-/ 7 8 9 * insert
-. 4 5 6 - sup
-0 1 2 3 + impPt
-  space layer2 altgr
+/ 7 8 9 * delete
+. 4 5 6 - insert
+0 1 2 3 + =
+  enter/shift ___ altgr
 
-// ! es Ctrl al dejar apretado
-// ~ es Shift al dejar apretado
-//doble tap a sup es ctrl+alt+sup
+// ¡ es gui al dejar apretado
+//crtl+alt+sup when held supr on tap
 
 ### Personal Layout layer 3 default *(movements)
 
 # left-hand 
-**    F1 F2  F3  F4  bm3
-BMay  F5 F6  F7  F8  bm4
-**    F9 F10 F11 F12 bm5
-      LGUI layer3 Enter
+bm5    F1 F2  F3  F4  macc0
+esc    F5 F6  F7  F8  macc1
+Ctrl   F9 F10 F11 F12 macc2
+      LGUI ___ Enter
 
 # right-hand 
-lmou domou upmous rmous upmidmo **            //mouse movement
-left down  up     right downmid clicmid     //arrows movement
-Ctrl RePag Inicio Fin   AvPag   Alt
+lmou  domou upmous rmous upmidmo bm4            //mouse movement
+left  down  up     right downmid bm3     //arrows movement
+impPt RePag Inicio Fin   AvPag   Alt
 right-click layer4 left-click
 
 //velocidad acelerada para mouse
 //bm es button mouse
-//doble tap a F4 es Alt+F4
-//doble tap a ctrl se hace ctrl+alt
 
 ### Personal Layout layer 4 default *(media and functions)
 
 # left-hand 
-**    mute    vol-    vol+  mutemic ** 
-BMay  backli- backli+ proy  avion   **  
-**    play    stop    prev  next    **  //music
+**    mute    vol-    vol+   **    calc 
+BMay  backli- backli+  **    **    menu  
+launch play   stop    prev  next   **  //music
       LGUI ** Enter
 
 # right-hand 
 **  querty game default reset **
-**  **     **   **      **    **
-**  **     **   **      **    **
+**  macro1 play1   **  stopmac    **
+**  macro2 play2   **      **    **
 space ** altgr
 //teclado qwerty en capa 1
 //teclado juego sin ajustes qmk al doble tap y demas
