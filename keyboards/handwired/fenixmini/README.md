@@ -53,13 +53,13 @@ right-hand row-column
 TAB  q d r f b
 ESC  a s e t g
 ctrl z x m c v
-    tab/LGUI layer3 space/shift
+    tab/LGUI layer3 enter/shift
 
 # right-hand 
 k w y p ; backspace
 h n i o u '
 j l , . / alt
-  enter/shift layer2 backspc/altgr
+   space/shift layer2 backspc/altgr
 
 //un toque a Altgr es backspace
 //un toque a lgui es tab
@@ -68,10 +68,10 @@ j l , . / alt
 ### Personal Layout layer 2 default *(numbers and symbols)
 
 # left-hand 
-`  ! @ # $ %
+~  ! @ # $ %
 ^  ( ) { } &
-|  _ ~ [ ] \
-    ¡ layer4 space/shift
+\  | ¡ [ ] _
+    ` layer4 space/shift
 
 # right-hand 
 / 7 8 9 * delete
@@ -112,9 +112,6 @@ launch play   stop    prev  next   **  //music
 **  macro1 play1   **  stopmac    **
 **  macro2 play2   **      **    **
 space ** altgr
-//teclado qwerty en capa 1
-//teclado juego sin ajustes qmk al doble tap y demas
-
 
 
 ### Editor para qmk builder
@@ -129,3 +126,4 @@ space ** altgr
 ### Compiling the Firmware
 
     qmk compile -kb handwired/fenixmini -km default
+

@@ -30,21 +30,7 @@
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
 
-//****ver que hace
-/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-//#define LOCKING_SUPPORT_ENABLE
 
-//****ver que hace
-/* Locking resynchronize hack */
-//#define LOCKING_RESYNC_ENABLE
-
-//****ver que hace
-/* key combination for command */
-/*
-#define IS_COMMAND() ( \
-    keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
-)
-*/
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
 
@@ -59,11 +45,12 @@
 
 #define TAPPING_TERM 200
 #define TAPPING_TOGGLE 2
-#define LEADER_TIMEOUT 200
-#define LEADER_PER_KEY_TIMING
-#define ONESHOT_TIMEOUT 300
-#define ONESHOT_TAP_TOGGLE 2
+// #define LEADER_TIMEOUT 200
+// #define LEADER_PER_KEY_TIMING
+// #define ONESHOT_TIMEOUT 200
+// #define ONESHOT_TAP_TOGGLE 2
 
 // MOUSE
 #define MOUSEKEY_INTERVAL 16 
 #define MOUSEKEY_MAX_SPEED 5
+#define MOUSEKEY_DELAY 200
