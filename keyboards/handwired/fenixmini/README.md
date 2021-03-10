@@ -51,7 +51,7 @@ right-hand row-column
 
 # left-hand 
 mac1  q d r f b
-ESC  a s e t g
+gesc  a s e t g
 ctrl z x m c v
     tab/LGUI layer3 enter/shift
 
@@ -69,9 +69,9 @@ j l , . / alt
 ### Personal Layout layer 2 default *(numbers and symbols)
 
 # left-hand 
-¡  ! @ # $ %
-^  ( ) { } &
-\  | ~ [ ] _
+¡     ! @ # $ %
+gesc  ( ) { } &
+\     | ^ [ ] _
     __ layer4 __
 
 # right-hand 
@@ -85,14 +85,14 @@ j l , . / alt
 
 # left-hand 
 bm5    F1 F2  F3  F4  macc0
-esc    F5 F6  F7  F8  macc1
-Ctrl   F9 F10 F11 F12 macc2
-      LGUI ___ Enter
+___    F5 F6  F7  F8  macc1
+___   F9 F10 F11 F12 macc2
+      ___ ___ ___
 
 # right-hand 
 lmou  domou upmous rmous upmidmo bm4 
 left  down  up     right downmid bm3     
-impPt RePag Inicio Fin   AvPag   Alt
+impPt RePag Inicio Fin   AvPag   ___
 right-click layer4 left-click
 
 up    inicio mup   fin  upmidmo  bm4
