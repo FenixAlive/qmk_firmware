@@ -50,7 +50,7 @@ right-hand row-column
 ### Personal Layout layer 1 default
 
 # left-hand 
-TAB  q d r f b
+mac1  q d r f b
 ESC  a s e t g
 ctrl z x m c v
     tab/LGUI layer3 enter/shift
@@ -64,23 +64,22 @@ j l , . / alt
 //un toque a Altgr es backspace
 //un toque a lgui es tab
 //shift al dejar apretado a enter o space
+//escape al apretar gui o shift es `
 
 ### Personal Layout layer 2 default *(numbers and symbols)
 
 # left-hand 
-~  ! @ # $ %
+¡  ! @ # $ %
 ^  ( ) { } &
-\  | ¡ [ ] _
-    ` layer4 space/shift
+\  | ~ [ ] _
+    __ layer4 __
 
 # right-hand 
 / 7 8 9 * delete
-. 4 5 6 - insert
-0 1 2 3 + =
-  enter/shift ___ altgr
+0 4 5 6 - insert
+. 1 2 3 + =
+  __ ___ __
 
-// ¡ es gui al dejar apretado
-//crtl+alt+sup when held supr on tap
 
 ### Personal Layout layer 3 default *(movements)
 
@@ -91,9 +90,14 @@ Ctrl   F9 F10 F11 F12 macc2
       LGUI ___ Enter
 
 # right-hand 
-lmou  domou upmous rmous upmidmo bm4            //mouse movement
-left  down  up     right downmid bm3     //arrows movement
+lmou  domou upmous rmous upmidmo bm4 
+left  down  up     right downmid bm3     
 impPt RePag Inicio Fin   AvPag   Alt
+right-click layer4 left-click
+
+up    inicio mup   fin  upmidmo  bm4
+left  mleft  mdown mrig downmid  bm3
+down  right  impPt Repag AvPag   Alt
 right-click layer4 left-click
 
 //velocidad acelerada para mouse
@@ -102,15 +106,15 @@ right-click layer4 left-click
 ### Personal Layout layer 4 default *(media and functions)
 
 # left-hand 
-**    mute    vol-    vol+   **    calc 
-BMay  backli- backli+  **    **    menu  
-launch play   stop    prev  next   **  //music
+mute    vol-    vol+   **    **    calc 
+BMay  backli- backli+  **    **    exec  
+
       LGUI ** Enter
 
 # right-hand 
-**  querty game default reset **
-**  macro1 play1   **  stopmac    **
-**  macro2 play2   **      **    **
+**     querty game    default reset  ctrl+alt+sup
+launch play   stop    prev    next   **  
+**     play1  macro2  play2   **     **
 space ** altgr
 
 
