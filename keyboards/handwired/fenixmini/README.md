@@ -56,7 +56,7 @@ ctrl z x m c v
     tab/LGUI layer3 enter/shift
 
 # right-hand 
-k w y p ; backspace
+k w y p ; delete
 h n i o u '
 j l , . / alt
    space/shift layer2 backspc/altgr
@@ -70,16 +70,15 @@ j l , . / alt
 
 # left-hand 
 ¡     ! @ # $ %
-gesc  ( ) { } &
-\     | ^ [ ] _
+~     ( ) { } &
+|     \ ^ [ ] `
     __ layer4 __
 
 # right-hand 
-/ 7 8 9 * delete
-0 4 5 6 - insert
-. 1 2 3 + =
+. 7 8 9 * insert
+0 4 5 6 + -
+= 1 2 3 / _
   __ ___ __
-
 
 ### Personal Layout layer 3 default *(movements)
 
@@ -112,7 +111,7 @@ BMay  backli- backli+  **    **    exec
       LGUI ** Enter
 
 # right-hand 
-**     querty game    default reset  ctrl+alt+sup
+**     querty game    chita   reset  ctrl+alt+sup
 launch play   stop    prev    next   **  
 **     play1  macro2  play2   **     **
 space ** altgr
