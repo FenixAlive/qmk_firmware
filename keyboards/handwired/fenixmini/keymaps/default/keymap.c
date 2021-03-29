@@ -62,9 +62,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             ),
     [_TWO] = LAYOUT (
             ALGR(KC_1)     , KC_EXLM   , KC_AT     , KC_HASH   , KC_DLR   , KC_PERC,
-            KC_TILD        , KC_LPRN   , KC_RPRN   , KC_LCBR   , LT(_NUMP, KC_RCBR), KC_AMPR,
+            KC_TILD        , KC_LPRN   , KC_RPRN   , KC_LCBR   , KC_RCBR  , KC_AMPR,
             CTLBS          , S(KC_BSLS), KC_CIRC   , KC_LBRC   , KC_RBRC  , KC_GRV,
-            _______        , _______   , _______   , _______   , _______  , ,
+            _______        , _______   , _______   , _______   , _______  , _______,
             KC_DOT         , KC_7      , KC_8      , KC_9      , KC_ASTR  , KC_INS,
             KC_0           , KC_4      , KC_5      , KC_6      , KC_PLUS  , KC_UNDS,
             KC_EQL         , KC_1      , KC_2      , KC_3      , KC_SLSH  , ALTMI
